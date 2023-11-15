@@ -5,7 +5,7 @@ const guildInfo = {
   realm: "Area 52",
   faction: "Alliance",
   region: "US",
-  logo: `${process.env.REACT_APP_WINGS_API_URL}/media/wings-logo-ai.png`,
+  logo: `${process.env.IMAGES_URL}/media/wings-logo-ai.png`,
   about:
     "We are a Cutting Edge guild aiming for efficient progression through each tier, with the goal of achieving Cutting Edge in a timely manner. The guild seeks to perform at a high level on a 3-night schedule while maintaining an atmosphere where people want to log on outside the raid. We are a community where we pride ourselves on maintaining a tight-knit group with a common competitive mindset. The guild boasts an active community that often runs Mythic+ together or plays other games. We raid Tuesday-Thursday from 9-12 PM EST.",
   interests: {
@@ -39,7 +39,7 @@ const guildInfo = {
         name: "Warcraft Logs",
         link: "https://www.warcraftlogs.com/guild/id/707417",
         label: {
-          image: `${process.env.REACT_APP_WINGS_API_URL}/media/icons/warcraft-logs-logo.png`,
+          image: `${process.env.IMAGES_URL}/media/icons/warcraft-logs-logo.png`,
           alt: "Warcraft Logs",
         },
         tooltip: "Warcraft Logs",
@@ -49,7 +49,7 @@ const guildInfo = {
         name: "Wow Armory",
         link: "https://worldofwarcraft.blizzard.com/en-us/guild/us/area-52/wings",
         label: {
-          image: `${process.env.REACT_APP_WINGS_API_URL}/media/icons/warcraft-icon.png`,
+          image: `${process.env.IMAGES_URL}/media/icons/warcraft-icon.png`,
           alt: "Wow Armory",
         },
         tooltip: "Wow Armory",
@@ -59,7 +59,7 @@ const guildInfo = {
         name: "Wow Progress",
         link: "https://www.wowprogress.com/guild/us/area-52/Wings",
         label: {
-          image: `${process.env.REACT_APP_WINGS_API_URL}/media/icons/curse-icon.png`,
+          image: `${process.env.IMAGES_URL}/media/icons/curse-icon.png`,
           alt: "Wow Progress",
         },
         tooltip: "Wow Progress",
