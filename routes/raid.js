@@ -1,27 +1,19 @@
 const express = require("express");
 const router = express.Router();
 
-const GnarlRoot =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_gnarlroot_thumb.webp";
-const Igira =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_igira_thumb.webp";
-const Volcross =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_vollcross_thumb.webp";
-const Council =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_council_of_dreams_thumb.webp";
-const Lardor =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_larodor_thumb.webp";
-const Nymue =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_nymue_thumb.webp";
-const Smolderon =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_smolderon_thumb.webp";
-const Tindral =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_tindral_thumb.webp";
-const Fyrakk =
-  "http://localhost:3001/media/patch_10.2_assets/raid/bosses/boss_fyrakk_thumb.webp";
+const GnarlRoot = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_gnarlroot_thumb.webp`;
+const Igira = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_igira_thumb.webp`;
+const Volcross = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_vollcross_thumb.webp`;
+const Council = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_council_of_dreams_thumb.webp`;
+const Lardor = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_larodor_thumb.webp`;
+const Nymue = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_nymue_thumb.webp`;
+const Smolderon = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_smolderon_thumb.webp`;
+const Tindral = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_tindral_thumb.webp`;
+const Fyrakk = `${process.env.REACT_APP_WINGS_API_URL}/media/patch_10.2_assets/raid/bosses/boss_fyrakk_thumb.webp`;
 
 const progressionInfo = [
   {
+    id: 1,
     name: "Vault of the Incarnates",
     bosses: [
       {
@@ -90,6 +82,7 @@ const progressionInfo = [
     ],
   },
   {
+    id: 2,
     name: "Abberus, The Shadowed Crucible",
     bosses: [
       {
@@ -176,6 +169,7 @@ const progressionInfo = [
     ],
   },
   {
+    id: 3,
     name: "Amirdrassil, the Dream's Hope",
     bosses: [
       {
@@ -277,7 +271,7 @@ const progressionInfo = [
           heroic: {
             level: "heroic",
             status: "progressing",
-            pulls: 0,
+            pulls: 1,
             lowest: 100,
             date: null,
           },

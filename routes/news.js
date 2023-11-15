@@ -5,8 +5,7 @@ const news = {
   items: [
     {
       id: 1,
-      image:
-        "http://localhost:3001/media/World_of_Warcraft_The_War_Within_Logo.png",
+      image: `${process.env.REACT_APP_WINGS_API_URL}/media/World_of_Warcraft_The_War_Within_Logo.png`,
       title: "New Expansion",
       description:
         "Blizzard announced the next three expansions - 'The World Soul Saga'. The first expansion expected to release in 2024 is 'The War Within'",
@@ -15,8 +14,7 @@ const news = {
     },
     {
       id: 2,
-      image:
-        "http://localhost:3001/media/World_of_Warcraft_Guardians_of_the_Dream_logo.png",
+      image: `${process.env.REACT_APP_WINGS_API_URL}/media/World_of_Warcraft_Guardians_of_the_Dream_logo.png`,
       title: "Upcoming Patch",
       description: "Warcraft's next major patch will be Guardians of the dream",
       date: new Date("2023-11-09"),
@@ -24,8 +22,7 @@ const news = {
     },
     {
       id: 3,
-      image:
-        "http://localhost:3001/media/WoW_Dragonflight_10.2_Raid-Amirdrassil_Environments_004.png",
+      image: `${process.env.REACT_APP_WINGS_API_URL}/media/WoW_Dragonflight_10.2_Raid-Amirdrassil_Environments_004.png`,
       title: "Upcoming Raid - Amirdrassil",
       description:
         "Blizzard will be releasing a new 9 boss raid next week. The raid bring the conflict with Fyrakk to a close, introduce a new strength legendary, and have ots of druid goodies.",
@@ -34,8 +31,7 @@ const news = {
     },
     {
       id: 4,
-      image:
-        "http://localhost:3001/media/Boost-Bundle-multi-purpose-1920x1080.jpeg",
+      image: `${process.env.REACT_APP_WINGS_API_URL}/media/Boost-Bundle-multi-purpose-1920x1080.jpeg`,
       title: "World Gear Upgradeable to 450 Item Level",
       description:
         "Gear obtained from open world activities after the launch of Dragonflight Patch 10.2 have been updated to be upgraded to 450 item level.",
