@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const cors = require("cors");
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://wingsguild.com"],
+  origin: ["http://localhost:3000", "https://www.wingsguild.com"],
   credentials: true,
 };
 
