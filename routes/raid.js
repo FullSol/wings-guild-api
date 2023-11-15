@@ -185,17 +185,17 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
-            pulls: 0,
-            lowest: 100,
-            date: null,
+            status: "killed",
+            pulls: 1,
+            lowest: 0,
+            date: new Date("2023-11-15T21:01:00").toISOString(),
           },
           heroic: {
             level: "heroic",
-            status: "progressing",
-            pulls: 0,
-            lowest: 100,
-            date: null,
+            status: "killed",
+            pulls: 1,
+            lowest: 0,
+            date: new Date("2023-11-15T23:29:00").toISOString(),
           },
           mythic: {
             level: "mythic",
@@ -213,17 +213,17 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
-            pulls: 0,
-            lowest: 100,
-            date: null,
+            status: "killed",
+            pulls: 1,
+            lowest: 0,
+            date: new Date("2023-11-15T21:21:00").toISOString(),
           },
           heroic: {
             level: "heroic",
-            status: "progressing",
-            pulls: 0,
-            lowest: 100,
-            date: null,
+            status: "killed",
+            pulls: 2,
+            lowest: 0,
+            date: new Date("2023-11-15T23:43:00").toISOString(),
           },
           mythic: {
             level: "mythic",
@@ -241,17 +241,17 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
+            status: "killed",
             pulls: 0,
-            lowest: 100,
-            date: null,
+            lowest: 0,
+            date: new Date("2023-11-15T21:21:00").toISOString(),
           },
           heroic: {
             level: "heroic",
-            status: "progressing",
-            pulls: 0,
-            lowest: 100,
-            date: null,
+            status: "killed",
+            pulls: 2,
+            lowest: 0,
+            date: new Date("2023-11-16T00:03:00").toISOString(),
           },
           mythic: {
             level: "mythic",
@@ -269,10 +269,10 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
+            status: "killed",
             pulls: 0,
-            lowest: 100,
-            date: null,
+            lowest: 0,
+            date: new Date("2023-11-15T21:47:00").toISOString(),
           },
           heroic: {
             level: "heroic",
@@ -297,10 +297,10 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
+            status: "killed",
             pulls: 0,
-            lowest: 100,
-            date: null,
+            lowest: 0,
+            date: new Date("2023-11-15T21:34:00").toISOString(),
           },
           heroic: {
             level: "heroic",
@@ -319,10 +319,10 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
+            status: "killed",
             pulls: 0,
-            lowest: 100,
-            date: null,
+            lowest: 0,
+            date: new Date("2023-11-15T22:00:00").toISOString(),
           },
           heroic: {
             level: "heroic",
@@ -347,10 +347,10 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
+            status: "killed",
             pulls: 0,
-            lowest: 100,
-            date: null,
+            lowest: 0,
+            date: new Date("2023-11-15T22:06:00").toISOString(),
           },
           heroic: {
             level: "heroic",
@@ -375,10 +375,10 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
+            status: "killed",
             pulls: 0,
-            lowest: 100,
-            date: null,
+            lowest: 0,
+            date: new Date("2023-11-15T22:30:00").toISOString(),
           },
           heroic: {
             level: "heroic",
@@ -403,10 +403,10 @@ const progressionInfo = [
         difficulties: {
           normal: {
             level: "normal",
-            status: "progressing",
+            status: "killed",
             pulls: 0,
-            lowest: 100,
-            date: null,
+            lowest: 0,
+            date: new Date("2023-11-15T23:03:00").toISOString(),
           },
           heroic: {
             level: "heroic",
