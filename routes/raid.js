@@ -1,15 +1,15 @@
 const express = require("express");
 const router = express.Router();
 
-const GnarlRoot = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_gnarlroot_thumb.webp`;
-const Igira = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_igira_thumb.webp`;
-const Volcross = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_vollcross_thumb.webp`;
-const Council = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_council_of_dreams_thumb.webp`;
-const Lardor = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_larodor_thumb.webp`;
-const Nymue = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_nymue_thumb.webp`;
-const Smolderon = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_smolderon_thumb.webp`;
-const Tindral = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_tindral_thumb.webp`;
-const Fyrakk = `${process.env.IMAGES_URL}/media/patch_10.2_assets/raid/bosses/boss_fyrakk_thumb.webp`;
+const GnarlRoot = `/media/patch_10.2_assets/raid/bosses/boss_gnarlroot_thumb.webp`;
+const Igira = `/media/patch_10.2_assets/raid/bosses/boss_igira_thumb.webp`;
+const Volcross = `/media/patch_10.2_assets/raid/bosses/boss_vollcross_thumb.webp`;
+const Council = `/media/patch_10.2_assets/raid/bosses/boss_council_of_dreams_thumb.webp`;
+const Lardor = `/media/patch_10.2_assets/raid/bosses/boss_larodor_thumb.webp`;
+const Nymue = `/media/patch_10.2_assets/raid/bosses/boss_nymue_thumb.webp`;
+const Smolderon = `/media/patch_10.2_assets/raid/bosses/boss_smolderon_thumb.webp`;
+const Tindral = `/media/patch_10.2_assets/raid/bosses/boss_tindral_thumb.webp`;
+const Fyrakk = `/media/patch_10.2_assets/raid/bosses/boss_fyrakk_thumb.webp`;
 
 const progressionInfo = [
   {
