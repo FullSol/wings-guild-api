@@ -69,7 +69,7 @@ const guildInfo = {
         name: "Raider.io",
         link: "https://raider.io/guilds/us/area-52/Wings",
         label: {
-          image: `${process.env.REACT_APP_WINGS_API_URL}/media/icons/raiderio_logo.png`,
+          image: `${process.env.IMAGES_URL}/media/icons/raiderio_logo.png`,
           alt: "Raider.io",
         },
         tooltip: "Raider.io",
