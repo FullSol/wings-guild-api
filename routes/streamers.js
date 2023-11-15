@@ -16,13 +16,6 @@ const streamerInfo = [
     specialization: "Augment",
     class: "Evoker",
   },
-  {
-    id: 3,
-    name: "Vladijmir",
-    chanel: "1vladijmir",
-    specialization: "Protection",
-    class: "Paladin",
-  },
 ];
 
 router.get("/", function (req, res) {
