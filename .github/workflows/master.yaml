@@ -25,7 +25,7 @@ jobs:
           script: |
             pm2 stop all
             rm -rf wings-guild-api
-            git clone https://github.com/FullSol/wings-guild-api.git
+            git clone -b main https://github.com/FullSol/wings-guild-api.git
             cd wings-guild-api
             npm install
             cd bin
