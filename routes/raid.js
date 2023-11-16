@@ -182,14 +182,14 @@ const progressionInfo = [
             status: "killed",
             pulls: 1,
             lowest: 0,
-            date: new Date("2023-11-15T21:01:00").toISOString(),
+            date: new Date("2023-11-14T21:01:00").toISOString(),
           },
           heroic: {
             level: "heroic",
             status: "killed",
             pulls: 1,
             lowest: 0,
-            date: new Date("2023-11-15T23:29:00").toISOString(),
+            date: new Date("2023-11-14T23:29:00").toISOString(),
           },
           mythic: {
             level: "mythic",
@@ -210,14 +210,14 @@ const progressionInfo = [
             status: "killed",
             pulls: 1,
             lowest: 0,
-            date: new Date("2023-11-15T21:21:00").toISOString(),
+            date: new Date("2023-11-14T21:21:00").toISOString(),
           },
           heroic: {
             level: "heroic",
             status: "killed",
             pulls: 2,
             lowest: 0,
-            date: new Date("2023-11-15T23:43:00").toISOString(),
+            date: new Date("2023-11-14T23:43:00").toISOString(),
           },
           mythic: {
             level: "mythic",
