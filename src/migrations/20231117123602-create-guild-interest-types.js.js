@@ -2,36 +2,25 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("guilds", {
+    await queryInterface.createTable("guild_interest_types", {
       id: {
         allowNull: false,
+        autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.UUID,
-        defaultValue: Sequelize.UUIDV4,
+        type: Sequelize.INTEGER,
       },
       name: {
-        type: Sequelize.STRING,
-        allowNull: false,
-        unique: true,
-      },
-      realm: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      faction: {
         type: Sequelize.ENUM,
-        values: ["Alliance", "Horde"],
+        values: [
+          "guild_interests",
+          "reporting_sites",
+          "application",
+          "mindset",
+        ],
         allowNull: false,
       },
-      region: {
+      tooltip: {
         type: Sequelize.STRING,
-        allowNull: false,
-      },
-      logo: {
-        type: Sequelize.STRING,
-      },
-      about: {
-        type: Sequelize.TEXT,
       },
       createdAt: {
         allowNull: false,
@@ -44,6 +33,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("guilds");
+    await queryInterface.dropTable("guild_interest_types");
   },
 };
