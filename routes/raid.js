@@ -349,8 +349,8 @@ const progressionInfo = [
           heroic: {
             level: "heroic",
             status: "progressing",
-            pulls: 14, // 8 + tonight
-            lowest: 21,
+            pulls: 21, // 8 + tonight
+            lowest: 13,
             date: null,
           },
           mythic: {
