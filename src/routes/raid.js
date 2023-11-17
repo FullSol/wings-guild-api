@@ -348,10 +348,10 @@ const progressionInfo = [
           },
           heroic: {
             level: "heroic",
-            status: "progressing",
-            pulls: 8,
-            lowest: 34.3,
-            date: null,
+            status: "killed",
+            pulls: 32, // 8 + tonight
+            lowest: 0,
+            date: new Date("2023-11-16T23:55:00").toISOString(),
           },
           mythic: {
             level: "mythic",
